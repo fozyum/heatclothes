@@ -46,8 +46,8 @@ try:
             duty=100
             print('Temp={0:0.1f}*  '.format(temperature))
         pwm_led.ChangeDutyCycle(duty)  
-        
         time.sleep(0.25)
+        
 except KeyboardInterruptoardInterrupt:
     print("exiting program")
 except :
